@@ -1,0 +1,26 @@
+[theme]
+base = "light"
+primaryColor = "#0F766E"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#0B1F3A"
+linkColor = "#0F766E"
+borderColor = "#E2E8F0"
+showWidgetBorder = true
+baseRadius = "0.65rem"
+buttonRadius = "0.65rem"
+# Inter from Google Fonts, falling back to the system sans-serif font when offline.
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFontWeights = [700, 650, 650, 600, 600, 600]
+chartCategoricalColors = ["#0F766E", "#1E3A5F", "#64748B", "#14B8A6", "#94A3B8", "#B45309"]
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 20
+fileWatcherType = "auto"
+
+[browser]
+gatherUsageStats = false

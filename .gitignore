@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------- Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------------- Secrets / credentials
+kaggle.json
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# ---------------------------------------------------------------- Machine-specific settings
+# Copy local_config.example.json to local_config.json and set your dataset path.
+local_config.json
+.claude/
+
+# ---------------------------------------------------------------- Dataset (licensed separately - never commit)
+data/*
+!data/.gitkeep
+
+# ---------------------------------------------------------------- Medical images (protect patient data)
+# Only the app's own assets and the documentation screenshots are committed; any other
+# X-ray or image file (e.g. test uploads copied into the project) stays local.
+*.dcm
+*.dicom
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+!docs/screenshots/*.png
+uploads/
+
+# ---------------------------------------------------------------- Model checkpoints and generated artifacts
+# Trained weights are large (~29 MB each) and are reproduced by scripts/train_model.py.
+models/*
+!models/.gitkeep
+*.keras
+*.h5
+*.weights.h5
+results/*
+!results/.gitkeep
+
+# ---------------------------------------------------------------- Local backups / temporary files
+backups/
+*.tmp
+*.log
+*.bak
+
+# ---------------------------------------------------------------- OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="40" viewBox="0 0 196 40" role="img" aria-label="ThoraxAI">
+  <rect x="1" y="2" width="36" height="36" rx="10" fill="#0B1F3A"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 9v9.5"/>
+    <path d="M19 18.5c-1.8.9-2.9 2.3-3.6 4"/>
+    <path d="M19 18.5c1.8.9 2.9 2.3 3.6 4"/>
+    <path d="M15.6 12.4c-4.6 1.3-7.1 7-7.1 12.6 0 3.4 1.9 4.9 4.1 4.3 2.9-.8 4.2-4.2 4.2-8.6v-6.2"/>
+    <path d="M22.4 12.4c4.6 1.3 7.1 7 7.1 12.6 0 3.4-1.9 4.9-4.1 4.3-2.9-.8-4.2-4.2-4.2-8.6v-6.2"/>
+  </g>
+  <circle cx="26.2" cy="23.8" r="2.4" fill="#2DD4BF"/>
+  <text x="47" y="27.5" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="-0.6" fill="#0B1F3A">Thorax<tspan fill="#0F766E">AI</tspan></text>
+</svg>
